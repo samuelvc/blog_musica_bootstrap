@@ -1,0 +1,150 @@
+.cinema-body {
+  background: url(../img/fondo.jpg);
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.contenedor{
+  padding-left: 2%; padding-right: 2%;
+  padding-top: 1px; padding-bottom: 1px;
+}
+
+.nav_header{
+  /*background-color: #A7FFEB;*/
+  background: url(../img/slogan.jpg);
+  height: 168px;
+  width: 100%;
+}
+
+.navbar-inverse {
+  background-color: rgba(8, 45, 94, 0.95);
+  min-height: 10%;
+  border: none;
+}
+
+.logo-img {
+  width: 90px;
+}
+
+.logo-img-user {
+  width: 24px; height: 24px;
+}
+
+.logo-img-video {
+  width: 115px; height: 66px;
+  padding-right: 10px;
+}
+
+.contenido{
+  background-color: #c8c8c8;
+}
+
+.navbar {
+  padding: 10px;
+  position: relative;
+  min-height: 0;
+  margin-bottom: 0;
+  border: 1px solid transparent;
+}
+
+.nav-pills>li {
+    float: left;
+    padding-left: 5px;
+}
+
+div.active>a{
+  background-color: #fafafa;
+  color: #000000;
+  font-size: 14px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.nav-pills>li.active>a{
+  background-color: #fafafa;
+  color: #000000;
+  font-size: 14px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.jumbotron {
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  min-height: 500px;
+  border-radius: 0px !important;
+  margin-bottom: 0px;
+}
+
+.jumbotron-img {
+  width: 220px;
+  margin-top: 20px;
+}
+
+.jumbotron-text {
+  font-size: 16px;
+  margin-top: 20px;
+  color: #FFFFFF;
+}
+
+.redes-sociales {
+  margin-top: 30px;
+}
+
+.img-social {
+  width: 40px;
+  height: 40px;
+  background-color: #ffffff;
+}
+
+.img-movies {
+  height: 260px;
+  padding: 6px;
+  margin-top: 22px;
+}
+
+.movie-title {
+  color: #FFFFFF;
+}
+
+.welcome-title {
+  color: #FFFFFF;
+  margin-right: 10px;
+}
+
+.titulo-cartelera {
+  min-height: 35px;
+  background-color: rgba(8, 45, 94, 0.95);
+}
+
+.titulo-text {
+  font-size: 18px;
+  font-weight: bolder;
+  color: #FFFFFF;
+  padding: 10px;
+}
+
+p{
+  text-align: justify;
+}
+
+@media (max-width: 770px) {
+  h2 {
+    font-size: 22px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+
+  .nav_header {
+      height: 200px;
+      width: 100%;
+  }
+}
